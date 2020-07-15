@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The menu displayed in the ActionBar for Download Documents
+ 
+ @author Martin Denham [mjdenham at gmail dot com]
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto" >
+	<item android:id="@+id/errors"
+		android:title="@string/download_errors"
+		android:icon="@drawable/ic_error_outline_black_24dp"
+		appcompat:showAsAction="always"/>
+	<item android:id="@+id/refresh"
+		  android:title="@string/download_refresh_book_list_menu_item"
+		  android:icon="@drawable/ic_action_refresh"
+		  appcompat:showAsAction="always"/>
+</menu>

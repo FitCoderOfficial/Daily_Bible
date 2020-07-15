@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name_short">Bijbel Studie</string>
+  <string name="app_name_medium">Bijbel Studie (And Bible)</string>
+  <string name="app_name_long">Bijbel Studie app, door And Bible Open Source Project</string>
+  <string name="version_text">Versie %s</string>
+  <string name="no_sdcard_error">Voer een SD-kaart in en start And Bible opnieuw.</string>
+  <!--Main menu-->
+  <string name="menu">Menu</string>
+  <string name="chooseBook">Document</string>
+  <string name="selectPassage">Passage</string>
+  <string name="search">Zoeken</string>
+  <string name="settings">Applicatie voorkeuren</string>
+  <string name="history">Geschiedenis</string>
+  <string name="speak">Voorlezen</string>
+  <string name="help">Hulp</string>
+  <string name="other">Andere</string>
+  <string name="help_and_tips">Help &amp; tips</string>
+  <string name="administration">Administratie</string>
+  <string name="rate_application">Beoordelen in Google Play</string>
+  <string name="chooce_document">Document kiezen</string>
+  <!--Passage navigation-->
+  <string name="choosePassageBookName">Kies een boek</string>
+  <string name="choosePassageChapterName">Kies een hoofdstuk</string>
+  <string name="choosePassageVerseName">Kies een Vers</string>
+  <string name="bible">Bijbel</string>
+  <string name="deuterocanonical">Deuterocanoniek</string>
+  <!--Search-->
+  <string name="search_index">Index doorzoeken</string>
+  <string name="index_creation_required">Een index is vereist om te zoeken</string>
+  <string name="create_index_for">Een index is vereist om te zoeken. \n\Index aanmaken voor %s?</string>
+  <string name="rebuild_index_for">Index opnieuw opbouwen voor %s?</string>
+  <string name="indexing_wait_msg">Als het indexeren klaar is, zal het zoekscherm verschijnen.</string>
+  <string name="index_create">Creëren</string>
+  <string name="rebuild_index">Index opnieuw samenstellen</string>
+  <string name="search_in">Zoeken in %s</string>
+  <string name="do_in_background">Doorgaan in de achtergrond</string>
+  <string name="rebuild_index_button">Opnieuw bouwen</string>
+  <!--Tasks-->
+  <string name="progress_status">Voortgang</string>
+  <string name="task_kill_warning">Deze langlopende taken kunnen beëindigd worden als je overschakelt naar een andere app.</string>
+  <string name="no_tasks_running">Er worden momenteel geen taken uitgevoerd.</string>
+  <!--Search-->
+  <string name="search_words_group_prompt">Verzen zoeken</string>
+  <string name="search_all_words">Alle woorden</string>
+  <string name="search_any_word">Elk woord</string>
+  <string name="search_phrase">Bewoording</string>
+  <string name="search_result_count">%d items gevonden</string>
+  <string name="search_showing_first">Te veel items. De eerste %d worden getoond.</string>
+  <string name="search_bible_section_group_prompt">Waar te zoeken</string>
+  <string name="search_all_bible">Gehele bijbel</string>
+  <string name="search_new_testament">Nieuwe Testament</string>
+  <string name="search_old_testament">Oude Testament</string>
+  <string name="search_current_book">Huidig boek</string>
+  <string name="error_executing_search">Ongeldige zoekopdracht</string>
+  <!--Preferences-->
+  <string name="prefs_show_verseno_summary">Vers nummering laten zien</string>
+  <string name="prefs_verse_per_line_summary">Laat elk vers op een nieuwe regel zien</string>
+  <string name="prefs_show_bookmarks_summary">Uitvinken om alle bookmarks te verbergen</string>
+  <string name="prefs_show_mynotes_summary">Laat icoon zien in verzen met Mijn Notitie</string>
+  <string name="prefs_show_notes_summary">Laat voetnoten en kruisverwijzingen zien</string>
+  <string name="prefs_show_strongs_summary">Snelkoppelingen naar Griekse &amp; Hebreeuwse definities</string>
+  <string name="prefs_show_morphology_summary">Laat Robinson\'s Greek morphology zien</string>
+  <string name="prefs_section_title_summary">Laat niet-canonieke pericoop koppen zien</string>
+  <string name="prefs_red_letter_summary">Geef woorden van Christus in rood weer</string>
+  <string name="prefs_text_size_title">Lettertype voorkeuren</string>
+  <string name="prefs_show_verseno_title">Versnummers</string>
+  <string name="prefs_verse_per_line_title">Eén vers per regel</string>
+  <string name="prefs_show_bookmarks_title">Bladwijzers tonen</string>
+  <string name="prefs_default_bookmark_style_title">Standaard bladwijzerstijl</string>
+  <string name="prefs_default_bookmark_style_summary">Markeringskleur of -pictogram</string>
+  <string name="prefs_show_mynotes_title">Mijn notitie-pictogrammen tonen</string>
+  <string name="prefs_show_notes_title">Voetnoten en kruisverwijzingen</string>
+  <string name="prefs_show_strongs_title">Strong\'s nummers</string>
+  <string name="prefs_show_morphology_title">Morfologische codes</string>
+  <string name="prefs_section_title_title">Sectietitels</string>
+  <string name="prefs_red_letter_title">Rode letter</string>
+  <string name="prefs_tilt_to_scroll_title">Kantelen om te scrollen</string>
+  <string name="prefs_night_mode_title">Nacht weergave wisselen</string>
+  <string name="prefs_night_mode_summary">Kies om automatisch naar nacht-mode te wisselen (als het apparaat dit ondersteunt), handmatig of via apparaat instellingen (Android 10+)</string>
+  <string name="prefs_night_mode_manual">Handmatig</string>
+  <string name="prefs_night_mode_automatic">Automatisch</string>
+  <string name="prefs_night_mode_system">Systeem</string>
+  <string name="options_menu_night_mode">Nacht weergave</string>
+  <string name="prefs_navigate_to_verse_title">Navigeer naar vers</string>
+  <string name="prefs_navigate_to_verse_summary">Kies een vers (en hoofdstuk) bij het selecteren van een passage</string>
+  <string name="prefs_open_links_in_special_window_title">Links openen in een speciaal venster</string>
+  <string name="prefs_open_links_in_special_window_summary">Voor een snellere weergave van kruisverwijzingen en Strongs</string>
+  <string name="prefs_text_size_summary">Pas lettertype familie en lettertype grootte aan</string>
+  <string name="prefs_text_size_sample_text">Voorbeeldtekst</string>
+  <string name="prefs_screen_keep_on_title">Scherm ingeschakeld houden</string>
+  <string name="prefs_screen_keep_on_summary">Voorkomen dat het scherm uitgaat tijdens het gebruiken van de app</string>
+  <string name="prefs_interface_locale_title">Applicatietaal</string>
+  <string name="prefs_interface_locale_summary">Kies een aangepaste taal voor deze app</string>
+  <string name="reset_fontsize">Reset</string>
+  <string name="prefs_request_sdcard_permission_title">Handmatige geïnstalleerde documenten</string>
+  <string name="prefs_request_sdcard_permission_summary">Het gebruik van handmatig geïnstalleerde documenten inschakelen uit de jsword-map op interne opslag</string>
+  <string name="all_text_options_window_menutitle">Alle tekst opties</string>
+  <string name="text_options_window_menutitle">Tekst opties</string>
+  <string name="auto_fullscreen">Volledig scherm door te scrollen</string>
+  <string name="reversed_split_mode">Omgekeerde splitsmodus</string>
+  <string name="add_ellipsis">%s ...</string>
+  <string name="font_size_pt">%d pt</string>
+  <string name="auto_fullscreen_summary">Wissel automatisch naar volledig scherm tijdens het scrollen van de tekst. Tip: u kunt altijd naar volledig scherm wisselen door dubbel te tikken op het scherm.</string>
+  <string name="prefs_margin_size_title">Wijzig marge grootte</string>
+  <string name="prefs_margin_size_mm_title">Marge grootte (%d/%d/%d mm)</string>
+  <string name="prefs_advanced_settings_cat">Geavanceerde voorkeuren</string>
+  <string name="prefs_behavior_customization_cat">Applicatie gedrag</string>
+  <string name="prefs_margin_size_summary">Pas de linker en rechter marge van het tekst venster aan. U kunt ook
+        de maximale breedte van de tekst aanpassen.</string>
+  <string name="prefs_text_colors_summary">Pas tekst, achtergrond kleuren of ruis effect aan. </string>
+  <string name="text_display_settings_activity_title">Tekst weergave instellingen</string>
+  <string name="workspace_text_display_settings_title">Tekst opties - %s</string>
+  <string name="window_text_display_settings_title">Tekst opties - Venster %d</string>
+  <string name="prefs_text_display_settings_title">Opmaak</string>
+  <string name="pref_left_margin_label_mm">Linker mage (%d mm)</string>
+  <string name="pref_right_margin_label_mm">Rechter marge (%d mm)</string>
+  <string name="pref_maximum_width_of_text_label_mm">Maximale breedte van de tekst (%d mm)</string>
+  <string name="prefs_line_spacing_pt">Regelafstand %1.1fx </string>
+  <string name="pref_font_family_label">Lettertype familie</string>
+  <string name="prefs_hyphenation_title">Tekstafbreking</string>
+  <string name="prefs_line_spacing_pt_title">Regelafstand (%1.1fx)</string>
+  <string name="line_spacing_title">Regelafstand</string>
+  <string name="line_spacing_summary">Stel de regelafstand in</string>
+  <string name="select_none">Selecteer niets</string>
+  <string name="reset_are_you_sure">Weet u zeker dat u alle waarden wilt terugzetten?</string>
+  <string name="window_pinning_menutitle">Vensters vastzetten</string>
+  <string name="hide_window_buttons_title">Venster knoppen verbergen</string>
+  <string name="font_size_title">Lettertype grootte</string>
+  <string name="full_screen_hide_buttons_pref_title">Verberg venster knoppen balk in volledig scherm</string>
+  <!--Colors preferences-->
+  <!--Window-->
+  <string name="new_window">Nieuw venster</string>
+  <string name="windowClose">Sluiten</string>
+  <string name="windowMaximise">Maximaliseren</string>
+  <string name="windowMinimise">Minimaliseren</string>
+  <string name="windowSynchronise">Synchroniseren</string>
+  <!--Notes screen-->
+  <string name="no_chapter_notes">Er zijn geen notities ​​bij dit hoofdstuk</string>
+  <string name="no_verse_notes">Er zijn geen notities ​​bij dit vers</string>
+  <string name="previous">Vorige</string>
+  <string name="next">Volgende</string>
+  <!--Strongs-->
+  <string name="strongs_not_installed">Download Strong\'s Hebreeuws en Grieks woordenboek</string>
+  <string name="all_greek_occurrences">Alle gebeurtenissen zoeken</string>
+  <string name="all_hebrew_occurrences">Alle gebeurtenissen zoeken</string>
+  <string name="no_indexed_bible_with_strongs_ref">Je moet een bijbel met Strong-nummers downloaden en de index downloaden via Zoeken</string>
+  <string name="morph_robinson_not_installed">Download \'Robinson\'s Morfologische analyse Codes\' woordenboek</string>
+  <!--Module download-->
+  <string name="download">Documenten downloaden</string>
+  <string name="download_document_confirm_prefix">Downloaden</string>
+  <string name="download_refreshing_book_list">Bezig met verversen van de lijst met beschikbare documenten</string>
+  <string name="download_refresh_book_list_menu_item">Verversen</string>
+  <string name="error_downloading">Er is een fout opgetreden bij het downloaden. Controleer je internetverbinding.</string>
+  <string name="storage_space_warning">Onvoldoende lokale opslagruimte.</string>
+  <string name="too_many_jobs">Er worden teveel taken uitgevoerd. Wacht tot sommige beëindigd zijn en probeer het opnieuw.</string>
+  <string name="document_not_installed">Download \'%s\'</string>
+  <!--Install zip file-->
+  <string name="install_zip">Document laden uit ZIP-bestand</string>
+  <string name="install_zip_module">Bijbelmodule installeren</string>
+  <string name="install_zip_successfull">De module is geïnstalleerd</string>
+  <string name="invalid_module">Het bestand bevat geen geldige SWORD-module</string>
+  <string name="module_already_installed">Het bestand bevat een module die reeds geïnstalleerd is</string>
+  <string name="install_zip_title">Bezig met laden van ZIP-bestand; even geduld...</string>
+  <!--Daily Reading Plan-->
+  <string name="rdg_plan_title">Leesplan</string>
+  <string name="rdg_plan_selector_title">Kies een leesplan</string>
+  <string name="rdg_plan_day">Dag %s</string>
+  <string name="done">Klaar</string>
+  <string name="reset">Standaardwaarden</string>
+  <!--Document context menu-->
+  <string name="delete">Verwijderen</string>
+  <string name="delete_index">Zoekindex verwijderen</string>
+  <string name="about">Over</string>
+  <string name="delete_doc">%s verwijderen?</string>
+  <string name="delete_search_index_doc">Index van %s verwijderen?</string>
+  <!--Verse context menu-->
+  <string name="notes">Voetnoten en verwijzingen</string>
+  <string name="compare_translations">Vertalingen vergelijken</string>
+  <!--Link context menu-->
+  <string name="open_link_in_this_window">Link hier openen</string>
+  <string name="open_link_in_new_window">Link openen in nieuw venster</string>
+  <string name="open_link_in_special_window">Link openen in speciaal venster</string>
+  <!--Bookmarks-->
+  <string name="bookmarks">Bladwijzers</string>
+  <string name="add_bookmark">Bladwijzer toevoegen</string>
+  <string name="delete_bookmark">Bladwijzer verwijderen</string>
+  <string name="bookmark_added">Bladwijzer toegevoegd</string>
+  <string name="bookmark_date_updated">Bladwijzerdatum bijgewerkt</string>
+  <string name="bookmark_deleted">Bladwijzer is verwijderd</string>
+  <string name="bookmark_labels">Bladwijzerlabels</string>
+  <string name="manage_labels">Bladwijzerlabels beheren</string>
+  <string name="assign_labels">Labels toewijzen</string>
+  <string name="new_label">Nieuw label</string>
+  <string name="label_name_prompt">Naam</string>
+  <string name="label_unlabelled">Ongelabeld</string>
+  <string name="style">Stijl</string>
+  <!--Sort orders used for Bookmarks and MyNotes-->
+  <string name="sort_by_date">Datumvolgorde</string>
+  <string name="sort_by_bible_book">Bijbelse volgorde</string>
+  <string name="sort_by_alphabetical">Alfabetische volgorde</string>
+  <!--Dictionary-->
+  <string name="dictionary">Woordenboek</string>
+  <string name="search_dictionary_hint">Woordenboek doorzoeken</string>
+  <!--General Book-->
+  <string name="general_book">Boek</string>
+  <!--Speak-->
+  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
+  <!--Speak - Bible-->
+  <string name="one_chapter">%d hoofdstuk</string>
+  <string name="some_chapters">%d hoofdstukken</string>
+  <string name="rest_of_book">Naar einde van boek</string>
+  <!--Speak - Commentary-->
+  <string name="one_verse">%d vers</string>
+  <string name="some_verses">%d verzen</string>
+  <string name="rest_of_chapter">Naar einde van hoofdstuk</string>
+  <!--Speak - Dictionary and other-->
+  <string name="one_page">%d pagina</string>
+  <string name="some_pages">%d pagina\'s</string>
+  <!--Speak - Common-->
+  <string name="stop">Stoppen</string>
+  <string name="pause">Pauzeren</string>
+  <string name="rewind">Terug </string>
+  <string name="forward">Vooruit</string>
+  <string name="tts_lang_not_available">De taal is niet beschikbaar.</string>
+  <string name="speak_queue">Wachtrij</string>
+  <string name="speak_repeat">Herhalen</string>
+  <!--Speak - Bible-->
+  <string name="speak_speed_title">Voorleessnelheid</string>
+  <string name="speak_and_play_earcons_title">Earcon-geluiden voorlezen en afspelen voor</string>
+  <string name="playback_settings_title">Afspeelinstellingen</string>
+  <string name="speak_settings_title">Algemene voorleesinstellingen</string>
+  <string name="speak_bookmarking_settings_title">Bladwijzerinstellingen</string>
+  <string name="speak_bookmarks_menu_title">Bladwijzer voorlezen</string>
+  <string name="speak_advanced_settings">Geavanceerde instellingen</string>
+  <string name="speak_sleep_timer_title">Slaaptimer</string>
+  <string name="speak_no_books_available">Geen voor te lezen boeken</string>
+  <string name="repeat_passage">Passage herhalen</string>
+  <string name="set_repeat_passage_range">Passageherhaling instellen</string>
+  <string name="speak_beginning_of_passage">Kies het begin van de passage</string>
+  <string name="speak_ending_of_passage">Kies het einde van de passage</string>
+  <string name="speak_verse_range_to_repeat">Kies de te herhalen verzen</string>
+  <string name="speak_ending_verse_must_be_later">Het laatste vers moet zich verder bevinden dan het eerste</string>
+  <string name="conf_speak_synchronize">Tekst loopt synchroon met spraak</string>
+  <string name="conf_speak_auto_bookmark">Automatische bladwijzers</string>
+  <string name="conf_save_playback_settings_to_bookmarks">Afspeelinstellingen opslaan naar bladwijzers</string>
+  <string name="conf_replace_divinename">Heilige naam vervangen door Yahweh</string>
+  <string name="conf_change_chapter">Hoofdstukwijzigingen</string>
+  <string name="conf_change_title">Titels</string>
+  <string name="conf_speak_footnotes">Voetnoten</string>
+  <string name="conf_speak_sleep_timer">Slaaptimer instellen</string>
+  <string name="sleep_timer_title">Slaaptijd, in minuten</string>
+  <string name="sleep_timer_set">Slaaptimer instellen. Timer ingesteld op %d minuten</string>
+  <string name="sleep_timer_started">Slaaptimer gestart; %d minuten</string>
+  <string name="sleep_timer_active_at">Slaaptimer: nog %s minuten te gaan.</string>
+  <string name="speak_next">Volgende</string>
+  <string name="speak_previous">Vorige</string>
+  <string name="widget_toggle_sleep_timer">Slaaptimer in-/uitschakelen</string>
+  <string name="widget_bookmark_helptext">Snelkoppelingen voor het voorlezen van bladwijzers verschijnen hier.</string>
+  <string name="speak_status_stopped">gestopt</string>
+  <string name="speak_autobookmarking_disabled">Automatisch toevoegen aan bladwijzers uitgeschakeld!</string>
+  <string name="system_speak_settings">TTS-instellingen van systeem openen</string>
+  <string name="speak_bookmark_help">Hulp bij voorleesbladwijzers</string>
+  <string name="speak_help_auto_bookmark">
+        Er wordt automatisch een bladwijzer voor voorlezen toegevoegd zodra het voorlezen wordt gepauzeerd of gestopt.
+        Automatisch gegenereerde bladwijzers zijn gelabeld met het speciale voorleeslabel.
+        Als je begint bij een voorleesbladwijzer, dan wordt de bladwijzer verplaatst naar het vers dat je
+        de volgende keer stopt of pauzeert. Alleen voorleeslabels worden verplaatst; andere labels
+        worden niet aangetast.
+    </string>
+  <string name="speak_help_playback_settings">
+        Speciale afspeelinstellingen (onder \"Afspeelinstellingen\" op het voorleesscherm)
+        worden opgeslagen naar voorleesbladwijzers zodra deze instellingen is gekozen.
+        Als je het voorlezen hervat via een voorleesbladwijzer, dan worden de afspeelinstellingen
+        geladen vanuit de bladwijzer.
+    </string>
+  <string name="speak_help_playback_settings_example">
+       Voorbeeld: als je luister naar Genesis en Romeinen en
+        snel naar Genesis wilt luisteren zonder hoofdstukmeldingen,
+        maar die bij Romeinen wél wilt, dan kun je
+        verschillende afspeelinstellingen instellen voor deze boeken,
+        zodra ze worden opgeslagen naar de bijbehorende bladwijzers.
+    </string>
+  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
+         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
+
+         Please note that this is not translation but you need to think about what words need to be replaced
+         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
+         in speak settings.-->
+  <string-array name="speak_divinename_original">
+    <item>Heer</item>
+    <item>God</item>
+    <item></item>
+    <item></item>
+    <item></item>
+  </string-array>
+  <!--List of (max 5) words that we will replace those words listed in divinename_original.
+
+         Please note that this is not translation but you need to think about what words need to be replaced
+         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
+         in speak settings.-->
+  <string-array name="speak_divinename_replace">
+    <item>Yahweh</item>
+    <item>Yahweh</item>
+    <item></item>
+    <item></item>
+    <item></item>
+  </string-array>
+  <string name="speak_book_changed">Boek opgeslagen.</string>
+  <string name="speak_chapter_changed">Hoofdstuk</string>
+  <string name="speak_first">Eerste</string>
+  <string name="speak_second">Tweede</string>
+  <string name="speak_third">Derde</string>
+  <string name="speak_fourth">Vierde</string>
+  <string name="speak_fifth">Vijfde</string>
+  <!--User Notes-->
+  <string name="mynotes">Mijn notities</string>
+  <string name="mynote_add">Toevoegen aan Mijn notities</string>
+  <string name="mynote_saved">Mijn notitie is opgeslagen</string>
+  <!--Backup and restore-->
+  <string name="backup_and_restore">Back-up en herstel</string>
+  <!--About-->
+  <!--Bug reporting-->
+  <!--Document types-->
+  <string name="doc_type_bible">Bijbel</string>
+  <string name="doc_type_commentary">Commentaar</string>
+  <string name="doc_type_dictionary">Woordenboek</string>
+  <string name="doc_type_book">Boek</string>
+  <string name="doc_type_map">Kaart</string>
+  <!--Languages-->
+  <string name="lang_default">Standaard</string>
+  <!--General-->
+  <string name="okay">Oké</string>
+  <string name="cancel">Annuleren</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nee</string>
+  <string name="error">Fout</string>
+  <string name="all">Alles</string>
+  <string name="default_value">@string/lang_default</string>
+  <string name="edit">Bewerken</string>
+  <string name="watch_tutorial_video">Bekijk de rondleidingsvideo (Engels)</string>
+  <!--Errors-->
+  <string name="report_error">Rapportage versturen</string>
+  <string name="error_occurred">Er is een fout opgetreden</string>
+  <string name="error_no_content">Het geselecteerde vers bevat geen inhoud</string>
+  <string name="error_page_too_large">De pagina is te groot om te worden geladen</string>
+  <string name="error_key_not_in_document">Niet aangetroffen in het document</string>
+  <string name="empty_list">Geen te tonen items</string>
+  <!--Notifications-->
+  <string name="notification_channel_tts_status">Tekst-naar-spraak</string>
+  <string name="notification_channel_progress_status">Voortgangsmeldingen voor documentdownloads, etc.</string>
+  <!--Workspaces-->
+  <!--Beta notice-->
+  <!--History-->
+  <!--Help-->
+  <string name="help_nav_title">Navigatie</string>
+  <string name="help_nav_text">Ga naar het volgende of vorige hoofdstuk door met je vinger over het scherm te vegen.
+        Dubbel-tik op de bijbeltekst om over te schakelen naar de volledig scherm-modus. Bijbelschermen (ook genoemd vensters) hebben rechtsboven een menuknop.
+         Hiermee kunt u verschillende venster-specifieke functies gebruiken en  het gedrag en de opmaak van het venster aanpassen. 
+    </string>
+  <string name="help_contextmenus_title">Actiemenu\'s</string>
+  <string name="help_contextmenus_text">
+Een item lang indrukken opent het context menu of het actiemenu in verschillende weergaven. 
+        Houdt de Bijbelweergave lang ingedrukt om het actiemenu te openen voor het huidige vers.
+        Houdt een document in de documentkeuze lang ingedrukt om het te verwijderen of informatie te tonen.
+        Houdt een bookmark in de bookmarks lijst lang ingedrukt om labels toe te voegen of de bookmark te verwijderen.
+        Houdt de terugknop lang ingedrukt om de geschiedenislijst te openen.
+    </string>
+  <string name="help_mynote_title">Mijn notitie</string>
+  <string name="help_mynote_text">Notities kunnen worden toegevoegd via het menu-item Mijn Notitie in het bijbelvers-actiemenu.
+        De lijst met bestaande notities kan worden geopend via het hoofdmenu.</string>
+  <string name="help_bookmarks_title">Bladwijzers</string>
+  <string name="help_bookmarks_text">Bladwijzers kunnen worden toegevoegd via het bijbelvers-actiemenu.
+        Bladwijzerbeheer kan worden geopend via het hoofdmenu.
+        Het actiemenu aldaar kan worden gebruikt om bladwijzers te groeperen met labels.
+    </string>
+  <string name="help_search_title">Zoeken</string>
+  <string name="help_search_text">De zoekopdracht mag speciale tekens bevatten, zoals *, ?, AND, OR, NOT
+        (lees \"Apache Lucene - Query Parser Syntax\" voor meer informatie hierover)
+    </string>
+  <string name="help_workspaces_title">Werkbladen</string>
+  <string name="help_workspaces_text">
+        Werkbladen geven de mogelijkheid om verschillende context-specifieke werk omgevingen te hebben. Werkblad functies kunnen gevonden worden via de Werkbladen knop in het optie menu (rechts-boven). Een snelle manier om werkbladen te vinden is
+        door naar beneden te vegen vanaf de taakbalk. U kunt ook naar links of rechts vegen op de taakbalk om
+        naar het vorige / volgende werkblad te gaan.</string>
+  <string name="help_hidden_features_title">Verborgen snelkoppelingen</string>
+  <string name="help_hidden_features_text">
+        Veeg naar beneden vanaf de taakbalk om de werkblad kiezer te openen.
+       Houdt de venster knop lang ingedrukt om snel te minimaliseren.
+       Houdt de spraak taakbalk knop lang ingedrukt om snel naar spraak instellingen te gaan.
+       Houdt de vers locatie titel in de taakbalk lang ingedrukt om naar het document-selectie venster te gaan.
+       Houdt de Terug knop lang ingedrukt om de Geschiedenis lijst te bekijken.</string>
+  <string name="help_window_pinning_title">Vensters vastzetten</string>
+  <!--Uncategorized-->
+</resources>

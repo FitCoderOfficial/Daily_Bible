@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+/.idea
+/app/release
+/app/bibleview-js/node_modules/
+/app/bibleview-js/.idea/
+/app/src/main/assets/web/.idea/
+/app/src/main/assets/web/.sourcemaps/
+/app/src/main/assets/web/loader.js
+/app/bibleview-js/dist/
+/db/build/
+*.env.*

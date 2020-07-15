@@ -1,0 +1,32 @@
+And Bible on avatud lähtekoodiga täiesti vaba Piibli rakendus, milles pole reklaame ning töötab ilma internetiühenduseta. See võimaldab inimestel paljudest eri riikidest lugeda, kuulata ja õppida Pühakirja nii kergesti kui võimalik.
+
+* Piiblid, kommentaarid, teoloogilised sõnaraamatud, kaardid ja kristlikud raamatud rohkem kui 700 keeles
+* Pärast algset allalaadimist on kõik kasutatav ilma võrguühenduseta, kaasa arvatud otsing, märkmed kommentaarid ja muu.
+* Kasutajaliides mitmes keeles
+* Erinevad Piibli lugemise kavad
+* Täiesti tasuta, ilma reklaamideta ja ei mingeid e-kirju
+* Üle 40 inglisekeelse piibli. Muu hulgas KJV ja NET (ESV oli meil ka olemas ja proovime seda tagasi saada. Selle kohta vaata lisainfot siit used: https://github.com/AndBible/and-bible/wiki/FAQ#i-cant-find-esv-any-more-in-downloads-whats-wrong)
+* 29 Piibli kommentaaride kogu
+* Ulatuslik sõnastik ja kristlike raamatute kogu
+* Kõik dokumendid on seaduslikud (see on ka põhjus, miks NKJV ja NIV pole saadaval)
+* Strongi numbrite kasutamine võimaldab teha kreeka ja heebrea sõnade analüüsi
+* Mitu jagatud ekraaniga tööala
+* Kirjuta isiklikke märkmeid
+* Paindlik otsing
+* Järjehoidjad
+* Piiblimaade kaardid
+* Igat dokumenti on võimalik lugemise asemel kuulata
+* Automaatne kerimine ning päeva ja öö režiim
+* Võrdle kõiki Piibli tõlkeid ühel ekraanil
+* Üks kiiremaid Piibli rakendusi Androidil
+* Avatud lähtekoodiga - kui soovid võid koodi täiendada või muuta
+* Kasutab võimast CrossWire poolt tehtud JSword mootorit
+
+Oleme kõik vabatahtlikud. Me ei saada välja tüütavaid e-kirju, ei näita häirivaid reklaame, ei küsi ega võta vastu annetusi ning ei küsi registreerumist. And Bible ei kogu sinu seadmest mingeid andmeid.
+
+Kõikide dokumentide allikaid on põhjalikult uuritud, et olla kindel, kas dokumente võib seaduslikult jagada või, et on olemas õigused selle tegemiseks. See on ka põhjus, miks rakenduses And Bible ei saa olla dokumente nagu NIV ja NKJV.
+
+<b>Märkmed</b>
+* Märgi And Bible sulle meeldivaks Facebookis: https://www.facebook.com/AndBible/
+* And Bible korduma kippuvad küsimused on siin: https://github.com/AndBible/and-bible/wiki/FAQ
+* Projekti lehekülg Githubis: https://github.com/AndBible/and-bible

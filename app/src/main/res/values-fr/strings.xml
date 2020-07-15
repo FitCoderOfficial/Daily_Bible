@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name_short">Bible Study</string>
+  <string name="app_name_medium">Bible Study (And Bible)</string>
+  <string name="app_name_long">Bible Study app, du projet opensource And Bible</string>
+  <string name="version_text">Version %s</string>
+  <string name="no_sdcard_error">Merci d\'insérer une carte SD et de redémarrer l\'application.</string>
+  <!--Main menu-->
+  <string name="menu">Menu</string>
+  <string name="chooseBook">Document</string>
+  <string name="selectPassage">Passage</string>
+  <string name="search">Rechercher</string>
+  <string name="settings">Paramètres de l\'application</string>
+  <string name="history">Historique</string>
+  <string name="speak">Lecture audio</string>
+  <string name="help">Aide</string>
+  <string name="other">Autre</string>
+  <string name="help_and_tips">Aide &amp; astuces</string>
+  <string name="administration">Gérer</string>
+  <string name="rate_application">Laisser un avis sur Google Play</string>
+  <string name="chooce_document">Ouvrir un document</string>
+  <!--Passage navigation-->
+  <string name="choosePassageBookName">Sélectionner un livre</string>
+  <string name="choosePassageChapterName">Sélectionner un chapitre</string>
+  <string name="choosePassageVerseName">Sélectionner un verset</string>
+  <string name="bible">Bible</string>
+  <string name="deuterocanonical">Deutérocanonique</string>
+  <!--Search-->
+  <string name="search_index">Recherche d\'index</string>
+  <string name="index_creation_required">L\'indexation de ce document est requise avant d’effectuer des recherches.</string>
+  <string name="create_index_for">Un index est requis pour effectuer des recherches.\n\nCéer un index pour 1%s?</string>
+  <string name="rebuild_index_for">Reconstruire l\'index de %s?</string>
+  <string name="indexing_wait_msg">Merci de patienter. Vous retrouverez l\'écran de recherche à la fin de l\'indexation.</string>
+  <string name="index_create">Créer</string>
+  <string name="rebuild_index">Reconstruire l\'index</string>
+  <string name="search_in">Rechercher dans %s</string>
+  <string name="do_in_background">Continuer en arrière-plan</string>
+  <string name="rebuild_index_button">Recréer</string>
+  <!--Tasks-->
+  <string name="progress_status">Progression</string>
+  <string name="task_kill_warning">Merci de patienter. Ne pas basculer vers une autre application, ces tâches risqueraient d\'être interrompues.</string>
+  <string name="no_tasks_running">Il n\'y a pas de tâches en cours d\'exécution.</string>
+  <!--Search-->
+  <string name="search_words_group_prompt">Type de requête</string>
+  <string name="search_all_words">Tous les mots</string>
+  <string name="search_any_word">N\'importe quel mot</string>
+  <string name="search_phrase">Phrase</string>
+  <string name="search_result_count">%d résultats trouvés</string>
+  <string name="search_showing_first">Trop de correspondances. Affichage des %d premiers résultats</string>
+  <string name="search_bible_section_group_prompt">Plage de recherche</string>
+  <string name="search_all_bible">Bible en entier</string>
+  <string name="search_new_testament">Nouveau Testament</string>
+  <string name="search_old_testament">Ancien Testament</string>
+  <string name="search_current_book">Livre courant</string>
+  <string name="error_executing_search">Requête invalide</string>
+  <!--Preferences-->
+  <string name="prefs_show_verseno_summary">Affiche les numéros de versets</string>
+  <string name="prefs_verse_per_line_summary">Affiche chaque verset sur une ligne différente</string>
+  <string name="prefs_show_bookmarks_summary">Affiche les signets dans le texte</string>
+  <string name="prefs_show_mynotes_summary">Les notes sont signalées par une icône dans les versets</string>
+  <string name="prefs_show_notes_summary">Affiche les notes et les références croisées</string>
+  <string name="prefs_show_strongs_summary">Liens vers les définitions en Grec &amp; Hébreu</string>
+  <string name="prefs_show_morphology_summary">Affiche la morphologie greque de Robinson</string>
+  <string name="prefs_section_title_summary">Affiche les titres des sections non-canoniques</string>
+  <string name="prefs_red_letter_summary">Affiche les paroles de Christ en rouge</string>
+  <string name="prefs_text_size_title">Options de police</string>
+  <string name="prefs_show_verseno_title">Numéros de versets</string>
+  <string name="prefs_verse_per_line_title">Un verset par ligne</string>
+  <string name="prefs_show_bookmarks_title">Afficher les signets</string>
+  <string name="prefs_default_bookmark_style_title">Style des signets</string>
+  <string name="prefs_default_bookmark_style_summary">Sélectionne le style d\'affichage des versets marqués d\'un signet</string>
+  <string name="prefs_show_mynotes_title">Afficher les icônes des notes</string>
+  <string name="prefs_show_notes_title">Notes et références croisées</string>
+  <string name="prefs_show_strongs_title">Nombres de Strong</string>
+  <string name="prefs_show_morphology_title">Codes morphologiques</string>
+  <string name="prefs_section_title_title">Titres de sections</string>
+  <string name="prefs_red_letter_title">Paroles de Christ en rouge</string>
+  <string name="prefs_tilt_to_scroll_title">Incliner pour faire défiler</string>
+  <string name="prefs_night_mode_title">Passe en mode nuit</string>
+  <string name="prefs_night_mode_summary">Que ce soit pour passer automatiquement en mode nuit (si l\'appareil le prend en charge), manuellement ou via les paramètres système (Android 10+).</string>
+  <string name="prefs_night_mode_manual">Manuel</string>
+  <string name="prefs_night_mode_automatic">Automatique</string>
+  <string name="prefs_night_mode_system">Système</string>
+  <string name="options_menu_night_mode">Mode nuit</string>
+  <string name="prefs_navigate_to_verse_title">Aller au verset</string>
+  <string name="prefs_navigate_to_verse_summary">Sélectionne aussi le verset (après le chapitre) lors du choix d\'un passage</string>
+  <string name="prefs_open_links_in_special_window_title">Ouvrir les liens dans une fenêtre spéciale</string>
+  <string name="prefs_open_links_in_special_window_summary">Permet d\'afficher plus rapidement les références croisées et codes de Strong</string>
+  <string name="prefs_text_size_summary">Configure la famille et la taille de la police</string>
+  <string name="prefs_text_size_sample_text">Exemple de texte</string>
+  <string name="prefs_screen_keep_on_title">Maintenir activé</string>
+  <string name="prefs_screen_keep_on_summary">Bloque la mise en veille automatique</string>
+  <string name="prefs_interface_locale_title">Langue de l\'application</string>
+  <string name="prefs_interface_locale_summary">Sélection d\'une langue d\'interface personnalisée </string>
+  <string name="reset_fontsize">Réinitialiser</string>
+  <string name="prefs_request_sdcard_permission_title">Installation manuelle de documents</string>
+  <string name="prefs_request_sdcard_permission_summary">Permet d\'installer manuellement des documents à partir du dossier jsword/sword dans l\'espace de stockage interne</string>
+  <string name="all_text_options_window_menutitle">Toutes les options du texte</string>
+  <string name="text_options_window_menutitle">Options du texte</string>
+  <string name="auto_fullscreen">Plein-écran par défilement</string>
+  <string name="reversed_split_mode">Partage d\'écran pivoté</string>
+  <string name="add_ellipsis">%s…</string>
+  <string name="font_size_pt">%d pt</string>
+  <string name="auto_fullscreen_summary">Faire défiler le texte active automatiquement le mode plein-écran. Astuce: Vous pouvez aussi activer le mode plein-écran par un double tapotement sur le texte.</string>
+  <string name="prefs_margin_size_title">Taille des marges</string>
+  <string name="prefs_margin_size_mm_title">Taille des marges (%d/%d/%d mm)</string>
+  <string name="prefs_advanced_settings_cat">Paramètres avancés</string>
+  <string name="prefs_display_customization_cat">Apparence</string>
+  <string name="prefs_behavior_customization_cat">Comportement de l\'application</string>
+  <string name="prefs_margin_size_summary">Configure les marges gauche et droite du texte, ainsi que la largeur maximale du texte.</string>
+  <string name="prefs_text_colors_summary">Ajuste les couleurs du texte, du fond et le motif de fond.</string>
+  <string name="text_display_settings_activity_title">Paramètres d\'affichage de texte</string>
+  <string name="workspace_text_display_settings_title">Options du texte - %s</string>
+  <string name="window_text_display_settings_title">Options du texte - Fenêtre %d</string>
+  <string name="prefs_text_display_settings_title">Mise en forme</string>
+  <string name="prefs_text_appearance_title">Apparence</string>
+  <string name="prefs_justify_title">Justification du texte</string>
+  <string name="prefs_justify_summary">Aligne le texte en mode justifié, toutes les lignes sont étirées pour avoir la même longueur </string>
+  <string name="pref_left_margin_label_mm">Marge de gauche (%d mm)</string>
+  <string name="pref_right_margin_label_mm">Marge de droite (%d mm)</string>
+  <string name="pref_maximum_width_of_text_label_mm">Longueur maximum du texte (%d mm)</string>
+  <string name="prefs_line_spacing_pt">Espace inter-lignes %1.1fx</string>
+  <string name="pref_font_family_label">Famille de police</string>
+  <string name="prefs_hyphenation_title">Césure des mots</string>
+  <string name="prefs_hyphenation_summary">Applique automatiquement la césure des mots, si le langage est supporté.</string>
+  <string name="prefs_line_spacing_pt_title">Espace inter-lignes (%1.1fx)</string>
+  <string name="line_spacing_title">Espace inter-lignes</string>
+  <string name="line_spacing_summary">Configure l\'espace entre les lignes</string>
+  <string name="select_none">Ne rien sélectionner</string>
+  <string name="reset_are_you_sure">Êtes-vous sûrs de réinitialiser tous les paramètres?</string>
+  <string name="window_pinning_menutitle">Épingler l\'écran</string>
+  <string name="hide_window_buttons_title">Cacher les boutons de fenêtres</string>
+  <string name="hide_window_buttons_summary">Les boutons de fenêtre affichés sur leur bord droit sont masqués. Les boutons sont toujours affichés dans la barre de navigation du bas et vous pouvez ouvrir le menu de fenêtre par un appui long sur le bouton correspondant.</string>
+  <string name="font_size_title">Taille de la police</string>
+  <string name="full_screen_hide_buttons_pref_title">Masquer la barre de boutons de la fenêtre en plein écran</string>
+  <string name="full_screen_hide_buttons_pref_summary">Lorsque vous passez en mode plein écran, masquez automatiquement la barre de boutons de la fenêtre qui se trouve en bas de l\'écran</string>
+  <!--Colors preferences-->
+  <string name="prefs_text_colors_menutitle">Options de couleur</string>
+  <string name="window_color_settings_title">Paramètres de couleur de fenêtre</string>
+  <string name="workspace_color_settings_title">Couleurs par défaut de l\'espace</string>
+  <string name="color_text">Couleur du texte</string>
+  <string name="color_background">Couleur du fond</string>
+  <string name="colors_day_mode_title">Mode jour</string>
+  <string name="colors_night_mode_title">Mode nuit</string>
+  <string name="prefs_noise_title">Motif de fond</string>
+  <string name="prefs_noise_summary">Ajouter un peu de moiré sur le fond peut rendre la lecture plus confortable.</string>
+  <string name="cpv_default_title">Sélectionner une couleur</string>
+  <string name="cpv_presets">Préconfigurations</string>
+  <string name="cpv_custom">Personnaliser</string>
+  <string name="cpv_select">Sélectionner</string>
+  <string name="cpv_transparency">Transparence</string>
+  <!--Window-->
+  <string name="new_window">Nouvelle fenêtre</string>
+  <string name="windowClose">Fermer</string>
+  <string name="windowMaximise">Maximiser</string>
+  <string name="windowMinimise">Minimiser</string>
+  <string name="windowSynchronise">Synchroniser</string>
+  <string name="move_window">Déplacer vers</string>
+  <string name="move_window_to_position2">Position %d (%s:%s)</string>
+  <string name="copy_settings">Copier les paramètres dans</string>
+  <string name="copy_settings_to_workspace">Espace</string>
+  <string name="copy_settings_to_window">fenêtre %d (%s: %s)</string>
+  <string name="change_to_normal">Modifier en fenêtre normale</string>
+  <string name="window_pin_mode">Épingler</string>
+  <!--Notes screen-->
+  <string name="no_chapter_notes">Aucune note dans ce chapitre</string>
+  <string name="no_verse_notes">Aucune note pour ce verset</string>
+  <string name="previous">Précédent</string>
+  <string name="next">Suivant</string>
+  <!--Strongs-->
+  <string name="strongs_not_installed">Merci de télécharger un lexique Hébreu/Araméen et Grec de Strong</string>
+  <string name="all_greek_occurrences">Trouver toutes les occurrences</string>
+  <string name="all_hebrew_occurrences">Trouver toutes les occurrences</string>
+  <string name="no_indexed_bible_with_strongs_ref">Merci de télécharger une bible contenant les codes de Strong,  puis de télécharger son index via la page Rechercher</string>
+  <string name="morph_robinson_not_installed">Merci de télécharger le lexique « Robinson\'s Morphological Analysis Codes »</string>
+  <!--Module download-->
+  <string name="download">Télécharger des documents</string>
+  <string name="download_confirmation">Télécharger une Bible par Internet?</string>
+  <string name="download_source_message">Les documents sont téléchargés à partir de : \n https://www.crosswire.org,\n https://ibtrussia.org,\n https://ebible.org, and\n https://andbible.github.io </string>
+  <string name="download_document_confirm_prefix">Télécharger </string>
+  <string name="download_refreshing_book_list">Mise à jour de la liste des documents disponibles</string>
+  <string name="download_refresh_book_list_menu_item">Rafraîchir</string>
+  <string name="error_downloading">Une erreur est apparue pendant le téléchargement. Merci de vérifier votre connexion internet.</string>
+  <string name="storage_space_warning">Espace de stockage local insuffisant.</string>
+  <string name="too_many_jobs">De trop nombreuses tâches sont en cours d\'exécution. Merci d\'attendre la fin de quelques-unes puis d\'essayer à nouveau.</string>
+  <string name="document_not_installed">Merci de télécharger \'%s\'</string>
+  <string name="free_text_search_documents">Rechercher</string>
+  <string name="chooce_language_hint">Langue</string>
+  <string name="one_more_back_press">Une nouvelle pression sur le bouton de retour fermera l\'application</string>
+  <string name="document_filter_results">%d documents</string>
+  <string name="download_question_title">Voulez-vous procéder au téléchargement des documents ?</string>
+  <string name="download_question_message">Si vous vivez dans un pays de persécution,
+vous devrez peut-être faire attention au téléchargement de matériel chrétien via Internet.
+Au lieu de cela, vous souhaiterez peut-être obtenir les fichiers zip du module de manière plus sécurisée et les installer
+via « Charger un document au format Zip ». Voulez-vous vraiment continuer le téléchargement ?
+Tous les téléchargements à partir des dépôts de modules sont cryptés (HTTPS).</string>
+  <string name="do_not_ask_again">Oui ne plus me demander</string>
+  <string name="recommended_document">Recommandé!</string>
+  <string name="about_version_history">Historique de version : %s</string>
+  <string name="download_failed">Le téléchargement de %s a échoué</string>
+  <string name="download_errors">Erreurs de téléchargement</string>
+  <string name="failed_repositories_message">Impossible de se connecter aux dépôts de documents suivants : \n\n %s\n\n</string>
+  <string name="failed_downloads_message">Les fichiers suivants n\'ont pas pu être téléchargés :\n\n %s \n\n</string>
+  <!--Install zip file-->
+  <string name="install_zip">Charger un document au format Zip</string>
+  <string name="install_zip_module">Installe un module de Bible</string>
+  <string name="install_zip_successfull">Le module a été installé avec succès</string>
+  <string name="extracting_zip_file">Extraire le fichier Zip maintenant…</string>
+  <string name="checking_zip_file">Vérification du fichier donné…</string>
+  <string name="invalid_module">Le fichier ne contient pas de module Sword valide</string>
+  <string name="module_already_installed">Le fichier contient un module qui est déjà installé</string>
+  <string name="install_zip_title">Chargement du fichier Zip. Merci de patienter.</string>
+  <string name="overwrite_files">Les fichiers suivants existent déjà : %s Les écraser ?</string>
+  <string name="overwrite_files_title">Écraser les fichiers ?</string>
+  <!--Daily Reading Plan-->
+  <string name="rdg_plan_title">Plan de lecture</string>
+  <string name="rdg_plan_selector_title">Choix d\'un plan de lecture</string>
+  <string name="rdg_plan_day">Jour %s</string>
+  <string name="rdg_plan_set_start_date">Définir la date de début…</string>
+  <string name="done">Fait</string>
+  <string name="reset">Réinitialiser</string>
+  <string name="reset_plan_question">Êtes-vous sûrs de redémarrer ce plan?</string>
+  <string name="plan_duplicate_user_plan">
+Un plan de lecture existe sur la sdcard
+jsword/readingplan du même nom qu\'un plan interne. Il ne peut pas être listé.
+Veuillez renommer le fichier en laissant son extension .properties</string>
+  <string name="plan_name_y1ntpspr">NT, Psaumes &amp; Proverbes en un an</string>
+  <string name="plan_description_y1ntpspr">
+Avec l\'aimable autorisation de HEARTLIGHT Internet Magazine,
+http://www.heartlight.org</string>
+  <string name="plan_name_y1ot1nt1_chronological">Bible chronologique en 1 an</string>
+  <string name="plan_description_y1ot1nt1_chronological">
+Plan basé sur l\'ordre chronologique des événements dans la Bible.
+La chronologie est approximative.</string>
+  <string name="plan_name_y1ot1nt1_OTandNT">Bible en 1 an, AT et NT simultanément</string>
+  <string name="plan_description_y1ot1nt1_OTandNT">
+Lecture de la Bible en 1 an, avec des chapitres
+dans l\'AT et le NT chaque jour.</string>
+  <string name="plan_name_y1ot1nt1_OTthenNT">Bible en 1 an</string>
+  <string name="plan_description_y1ot1nt1_OTthenNT">
+Lecture de la Bible en 1 an, commence par la Genèse
+et se termine par l\'Apocalypse. AT en premier, puis NT. </string>
+  <string name="plan_name_y1ot1nt2_mcheyne">Bible en 1 an, 4 chapitres/jour de McCheyne</string>
+  <string name="plan_description_y1ot1nt2_mcheyne">
+Plan de Robert Murray McCheyne, pasteur écossais. 
+4 passages différents à lire chaque jour: 2 passages de l\'AT + 1 passage du NT + 1 passage des Psaumes ou des Évangiles.
+En une année, l\'AT est lu 1 fois et les Psaumes et le NT sont lus 2 fois . </string>
+  <string name="plan_name_y1ot6nt4_profHorner">Plan de lecture du Prof. Horner. 10 chapitres/jour</string>
+  <string name="plan_description_y1ot6nt4_profHorner">Avec l\'aimable autorisation de Prof. Horner</string>
+  <string name="plan_name_y2ot1ntps2">Bible en 2 ans, NT+Psaumes 2 fois</string>
+  <string name="plan_description_y2ot1ntps2">
+Lecture de la Bible en 2 ans, le NT et les Psaumes sont lus 2 fois.
+Avec l\'aimable autorisation de Wholesome Words, http://www.wholesomewords.org/</string>
+  <!--Document context menu-->
+  <string name="delete">Supprimer</string>
+  <string name="delete_index">Supprimer l\'index de recherche</string>
+  <string name="about">À propos</string>
+  <string name="delete_doc">Supprimer %s?</string>
+  <string name="delete_search_index_doc">Supprimer l\'index de %s?</string>
+  <!--Verse context menu-->
+  <string name="notes">Notes et références croisées</string>
+  <string name="verse_action_copy">Copier</string>
+  <string name="share_verse">Partager ...</string>
+  <string name="share_verse_subject_2">Un verset de la Bible a été partagé avec vous en utilisant %s.</string>
+  <string name="compare_translations">Comparer les traductions</string>
+  <!--Link context menu-->
+  <string name="open_link_in_this_window">Ouvrir le lien ici</string>
+  <string name="open_link_in_new_window">Ouvrir le lien dans une nouvelle fenêtre</string>
+  <string name="open_link_in_special_window">Ouvrir le lien dans une fenêtre spéciale</string>
+  <!--Bookmarks-->
+  <string name="bookmarks">Signets</string>
+  <string name="add_bookmark">Ajouter un signet</string>
+  <string name="delete_bookmark">Effacer le signet</string>
+  <string name="bookmark_added">Signet ajouté</string>
+  <string name="bookmark_date_updated">Date du signet mise à jour</string>
+  <string name="bookmark_deleted">Signet effacé</string>
+  <string name="bookmark_labels">Étiquettes des signets</string>
+  <string name="manage_labels">Gérer les étiquettes des signets</string>
+  <string name="assign_labels">Attribuer des étiquettes</string>
+  <string name="new_label">Nouvelle étiquette</string>
+  <string name="label_name_prompt">Nom de l\'étiquette</string>
+  <string name="label_unlabelled">Indéfini</string>
+  <string name="style">Style</string>
+  <!--Sort orders used for Bookmarks and MyNotes-->
+  <string name="sort_by_date">Ordre chronologique</string>
+  <string name="sort_by_bible_book">Ordre biblique</string>
+  <string name="sort_by_alphabetical">Ordre alphabétique</string>
+  <!--Dictionary-->
+  <string name="dictionary">Dictionnaire</string>
+  <string name="search_dictionary_hint">Recherche dans le dictionnaire</string>
+  <!--General Book-->
+  <string name="general_book">Livre</string>
+  <!--Speak-->
+  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
+  <!--Speak - Bible-->
+  <string name="one_chapter">%d chapitre</string>
+  <string name="some_chapters">%d chapitres</string>
+  <string name="rest_of_book">À la fin du livre</string>
+  <!--Speak - Commentary-->
+  <string name="one_verse">%d verset</string>
+  <string name="some_verses">%d versets</string>
+  <string name="rest_of_chapter">À la fin du chapitre</string>
+  <!--Speak - Dictionary and other-->
+  <string name="one_page">%d page</string>
+  <string name="some_pages">%d pages</string>
+  <!--Speak - Common-->
+  <string name="stop">Arrêt</string>
+  <string name="pause">Pause</string>
+  <string name="rewind">Reculer</string>
+  <string name="forward">Avancer</string>
+  <string name="tts_lang_not_available">La langue n\'est pas disponible.</string>
+  <string name="speak_queue">File d\'attente</string>
+  <string name="speak_repeat">Répéter</string>
+  <!--Speak - Bible-->
+  <string name="speak_speed_title">Vitesse de lecture</string>
+  <string name="speak_and_play_earcons_title">Lire et jouer des effets sonores pour </string>
+  <string name="playback_settings_title">Paramètres audio</string>
+  <string name="speak_settings_title">Paramètres généraux de la voix</string>
+  <string name="speak_bookmarking_settings_title">Paramètres des signets</string>
+  <string name="speak_bookmarks_menu_title">Écouter à partir du signet</string>
+  <string name="speak_advanced_settings">Paramètres avancés</string>
+  <string name="speak_sleep_timer_title">Mise en sommeil</string>
+  <string name="speak_no_books_available">Pas de livre disponible à écouter</string>
+  <string name="repeat_passage">Répéter un passage</string>
+  <string name="set_repeat_passage_range">Définir la plage de répétition de passage</string>
+  <string name="speak_beginning_of_passage">Choisir le début du passage</string>
+  <string name="speak_ending_of_passage">Choisir la fin du passage</string>
+  <string name="speak_verse_range_to_repeat">Définir la série de versets à répéter</string>
+  <string name="speak_ending_verse_must_be_later">Le verset de fin doit se situer après le verset de début.</string>
+  <string name="conf_speak_synchronize">Le texte défile en suivant la voix</string>
+  <string name="conf_speak_auto_bookmark">Mise en signet automatique</string>
+  <string name="conf_save_playback_settings_to_bookmarks">Enregistrer les paramètres audio dans les signets</string>
+  <string name="conf_replace_divinename">Remplacer le nom divin par Yahvé</string>
+  <string name="conf_change_chapter">Nouveau chapitre</string>
+  <string name="conf_change_title">Titre</string>
+  <string name="conf_speak_footnotes">Note de bas de page</string>
+  <string name="conf_speak_sleep_timer">Programmer la mise en sommeil</string>
+  <string name="sleep_timer_title">Minuterie d\'arrêt en minutes</string>
+  <string name="sleep_timer_set">Mise en sommeil programmée : %d minutes</string>
+  <string name="sleep_timer_started">Minuteur démarré, %d minutes</string>
+  <string name="sleep_timer_active_at">Mise en sommeil : reste %s minutes</string>
+  <string name="speak_next">Suivant</string>
+  <string name="speak_previous">Précédent</string>
+  <string name="widget_toggle_sleep_timer">Inverser la mise en sommeil</string>
+  <string name="widget_bookmark_helptext">Ici s\'afficheront les raccourcis vers les signets audio de And Bible</string>
+  <string name="speak_status_stopped">arrêt</string>
+  <string name="speak_autobookmarking_disabled">Mise en signet automatique désactivée! </string>
+  <string name="system_speak_settings">Paramètres de la synthèse vocale</string>
+  <string name="speak_bookmark_help">Aide des signets audio</string>
+  <string name="speak_help_auto_bookmark">
+Un Signet audio est automatiquement généré lorsque la Lecture audio est mise sur pause ou arrétée. Ces signets ont pour label Lecture audio.
+Si vous démarrez l\'écoute à partir d\'un signet audio, celui-ci sera déplacé au verset où vous interromprez ensuite la Lecture audio.
+Seuls les signets de type Lecture audio sont déplacés, les autres signets restent inchangés.</string>
+  <string name="speak_help_playback_settings">
+Si cette option est activée, vos paramètres audio (section Paramètres des signets de la Lecture audio) sont enregistrés dans le signet audio.
+Quand vous redémarrez la lecture à partir d\'un signet audio, les paramètres de lecture sont rechargés à partir du signet.</string>
+  <string name="speak_help_playback_settings_example">
+Par exemple si vous écoutez Genèse et Romains, et désirez entendre Genèse à bonne vitesse sans notifications de changement de chapitre mais Romains plutôt lentement avec un effet sonore en tête de chapitre, vous conserverez ces paramètres différents pour l\'écoute si ces paramètres sont enregistrés dans les signets correspondants.</string>
+  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
+         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
+
+         Please note that this is not translation but you need to think about what words need to be replaced
+         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
+         in speak settings.-->
+  <string-array name="speak_divinename_original">
+    <item>Seigneur</item>
+    <item>Dieu</item>
+    <item></item>
+    <item></item>
+    <item></item>
+  </string-array>
+  <!--List of (max 5) words that we will replace those words listed in divinename_original.
+
+         Please note that this is not translation but you need to think about what words need to be replaced
+         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
+         in speak settings.-->
+  <string-array name="speak_divinename_replace">
+    <item>Yahvé</item>
+    <item>Yahvé</item>
+    <item></item>
+    <item></item>
+    <item></item>
+  </string-array>
+  <string name="speak_book_changed">Changement de livre.</string>
+  <string name="speak_chapter_changed">Chapitre</string>
+  <string name="speak_first">Premier</string>
+  <string name="speak_second">Second</string>
+  <string name="speak_third">Troisième</string>
+  <string name="speak_fourth">Quatrième</string>
+  <string name="speak_fifth">Cinquième</string>
+  <string name="verse_range_mode_disabled">
+La répétition automatique de passage a été automatiquement désactivée car la lecture audio a démarré en dehors de la plage des versets à répéter.</string>
+  <!--User Notes-->
+  <string name="mynotes">Mes notes</string>
+  <string name="mynote_add">Ajouter une note</string>
+  <string name="mynote_saved">Ma note a été enregistrée</string>
+  <!--Backup and restore-->
+  <string name="backup_and_restore">Sauvegarder &amp; Restaurer</string>
+  <string name="backup_modules">Sauvegarde les documents vers...</string>
+  <string name="backup_app_database">Sauvegarde la base de données de l\'application vers…</string>
+  <string name="restore_app_database">Restaurer la base de données d\'application à partir de…</string>
+  <string name="restore_confirmation">Écraser mes Notes, Signets, Plans de lecture et mes Espaces?</string>
+  <string name="restore_success">Mes Notes, Signets, Plans de lecture et mes Espaces ont été restaurés avec succès</string>
+  <string name="loading_backup">Chargement de la base de données depuis la sauvegarde...</string>
+  <string name="backup_success">Mes notes, signets, plans de lecture et espaces de travail ont été correctement sauvegardés en %s.</string>
+  <string name="error_no_backup_file">Le fichier de sauvegarde n\'a pas été trouvé</string>
+  <string name="backup_modules_email_subject_2">%s sauvegarde de modules</string>
+  <string name="backup_modules_email_message_2">Vous trouverez ci-joint la sauvegarde de vos modules %s, qui contient les modules suivants : %s</string>
+  <string name="backup_email_subject_2">%s sauvegarde de la base de données</string>
+  <string name="backup_email_message_2">Votre base de données %s contenant des signets, des notes, des plans de lecture et des espaces de travail est jointe</string>
+  <string name="restore_unsuccessfull">La restauration de la base de données a échoué.
+Le fichier est peut-être invalide.</string>
+  <string name="backup_restore_title">Restaurer à partir d\'où ?</string>
+  <string name="backup_restore_message">Restaurer à partir du stockage du téléphone ou choisir un fichier de sauvegarde manuellement (vous pouvez également choisir depuis Google Drive, etc.)</string>
+  <string name="backup_phone_storage">Stockage de téléphone</string>
+  <string name="backup_manually">Choisissez un fichier</string>
+  <string name="backup_backup_title">Vers où sauvegarder ?</string>
+  <string name="backup_backup_message">Sauvegarder sur le téléphone ou ailleurs via la fonction Partager (courriel, Google Drive, etc.) ?</string>
+  <string name="backup_share">Partager</string>
+  <string name="restore_modules">Restaurer les documents depuis…</string>
+  <string name="send_backup_file">Soumettre un fichier de sauvegarde</string>
+  <string name="backup_modules_title">Sélectionner quels modules sauvergarder</string>
+  <string name="install_zip_canceled">Installation du module annulée</string>
+  <!--About-->
+  <string name="module_about_copyright">Copyright: %s</string>
+  <string name="module_about_installed_version">Version installée : %s (%s)</string>
+  <string name="module_about_latest_version">Dernière version : %s (%s)</string>
+  <string name="module_about_versification">Versification : %s</string>
+  <string name="module_about_repository">Dépôt de distribution : %s</string>
+  <string name="module_about_osisId">OSIS ID : %s</string>
+  <!--Bug reporting-->
+  <string name="send_bug_report_title">Rapporter un bogue</string>
+  <string name="report_bug_email_subject_2">Rapport de bogue pour %s %s</string>
+  <string name="report_bug_email_message">
+--- ÉCRIRE UN RAPPORT DE BOGUE SOUS CETTE LIGNE ---\n
+Instructions:\n
+Décrivez brièvement ce que vous faisiez, ou ce qu\'il se passait quand le problème
+ est apparu. Exemple: \n
+\n
+1. Démarrer l\'application\n
+2. Cliquer sur le menu de fenêtre\n
+-&gt; Crash\n
+\n
+Parfois une recopie d\'écran peut aussi aider pour résoudre un problème.
+Merci d\'utiliser cette fonction pour rapporter rapidement le bogue après l\'avoir constaté.
+Vous pouvez aussi utiliser cette fonction après avoir ré-ouvert l\'application, après un crash.
+\n\n
+Device info:\n
+%s</string>
+  <!--Document types-->
+  <string name="doc_type_all">Tous types</string>
+  <string name="doc_type_bible">Bible</string>
+  <string name="doc_type_commentary">Commentaire</string>
+  <string name="doc_type_dictionary">Dictionnaire</string>
+  <string name="doc_type_book">Livre</string>
+  <string name="doc_type_map">Carte</string>
+  <!--Languages-->
+  <string name="lang_default">Par défaut</string>
+  <!--General-->
+  <string name="okay">OK</string>
+  <string name="cancel">Annuler</string>
+  <string name="yes">Oui</string>
+  <string name="no">Non</string>
+  <string name="error">Erreur </string>
+  <string name="please_wait">Veuillez patienter...</string>
+  <string name="all">Tout</string>
+  <string name="default_value">@string/lang_default</string>
+  <string name="edit">Éditer</string>
+  <string name="watch_tutorial_video">Voir le tutoriel vidéo (en anglais)</string>
+  <string name="verse_not_found">Verset non trouvé</string>
+  <!--Errors-->
+  <string name="report_error">Envoyer un rapport </string>
+  <string name="error_occurred">Une erreur s\'est produite</string>
+  <string name="error_occurred_with_link">Un erreur s\'est produite. %s</string>
+  <string name="error_no_content">Aucun contenu pour le verset sélectionné</string>
+  <string name="error_page_too_large">La page est trop lourde pour être chargée</string>
+  <string name="error_key_not_in_document">Aucune correspondance dans le document</string>
+  <string name="empty_list">Aucun élément à afficher</string>
+  <!--Notifications-->
+  <string name="notification_channel_tts_status">Lecture de texte</string>
+  <string name="notification_channel_progress_status">État d\'avancement de la notification de téléchargement des documents etc.</string>
+  <!--Workspaces-->
+  <string name="new_workspace">Nouveau</string>
+  <string name="switch_to_workspace">Espaces</string>
+  <string name="delete_workspace">Supprimer</string>
+  <string name="new_copied_workspace">Copier comme un nouveau</string>
+  <string name="workspace_number">Espace %d</string>
+  <string name="rename_workspace">Renommer</string>
+  <string name="workspace_selector_title">Sélection d\'espace</string>
+  <string name="workspace_settings">Paramètres...</string>
+  <string name="give_name_workspace">Donner un nom au nouvel espace</string>
+  <string name="save_and_exit">Enregistrer</string>
+  <string name="workspace_save_changes">Appliquer les changements aux espaces?</string>
+  <string name="copy_of_workspace">Copie de %s</string>
+  <string name="copy_workspace_settings">Copie des paramètres...</string>
+  <string name="copy_settings_title">Quels paramètres voulez-vous copier?</string>
+  <string name="select_all">Sélectionner tout</string>
+  <string name="copy_settings_workspaces_title">Sur quels espaces voulez-vous appliquer les paramètres?</string>
+  <string name="reset_settings">Réinitialiser</string>
+  <string name="workspace_dismiss">Ignorer</string>
+  <string name="workspace_listing_with_current">%s (courant)</string>
+  <!--Beta notice-->
+  <string name="beta_notice_title">Ceci est une version bêta!</string>
+  <string name="beta_notice_content_1">
+Dans une version bêta, les nouvelles fonctionnalités n\'ont pas encore été toutes entièrement testées,
+une bêta peut donc produire des bogues qui sont encore en cours d\'analyse et de correction.
+Il est recommandé d\'utiliser la version stable. </string>
+  <string name="beta_notice_content_2">
+Les bêta-testeurs sont invités à rapporter les bogues via Google Play ou via (de préférence) %s.</string>
+  <string name="beta_notice_content_3">Si vous êtes développeur, merci d\'envisager de contribuer vous-mêmes aux corrections de bogues sur %s :)</string>
+  <string name="beta_notice_github_issues">Github issues</string>
+  <string name="beta_notice_github">Github</string>
+  <string name="beta_notice_dismiss">Ignorer</string>
+  <string name="beta_notice_dismiss_until_update">Ignorer jusqu\'à la prochaine mise à jour</string>
+  <!--History-->
+  <string name="history_for">Historique (%s: Fenêtre %d)</string>
+  <!--Help-->
+  <string name="help_nav_title">Navigation</string>
+  <string name="help_nav_text">Passez au chapitre précédent ou au suivant en balayant l\'écran à gauche ou à droite avec votre doigt.
+Tapotez deux fois sur le texte biblique pour activer le mode plein écran.
+Les fenêtres partagées (dans l\'écran) ont un bouton de menu en haut à droite,
+ce qui vous permet d\'utiliser des fonctions spécifiques à une fenêtre ou d\'en modifier son apparence où son comportement.</string>
+  <string name="help_contextmenus_title">Menus contextuels</string>
+  <string name="help_contextmenus_text">
+Un appui long ouvre le menu contextuel ou le mode d\'action dans plusieurs vues.
+Appuyez longuement sur la vue de la Bible pour ouvrir le mode action pour les actions affectant le verset actuel.
+Appuyez longuement sur un élément de document dans la vue de liste de Choisir un document ou Télécharger pour supprimer le document ou afficher les informations.
+Appuyez longuement sur un signet dans la liste des signets pour ajouter des étiquettes ou supprimer un signet.
+Appuyez longuement sur les liens pour choisir si vous souhaitez les ouvrir dans la fenêtre actuelle, une nouvelle fenêtre ou une fenêtre de liens spéciaux.</string>
+  <string name="help_mynote_title">Mes notes</string>
+  <string name="help_mynote_text">Les notes s\'ajoutent via l\'option Mes notes du menu contextuel de chaque verset.
+La liste des notes existantes est accessible par le Menu principal.</string>
+  <string name="help_bookmarks_title">Signets</string>
+  <string name="help_bookmarks_text">Vous pouvez ajouter un signet via le menu contextuel du verset.
+Le gestionnaire de signets est accessible par le Menu principal.
+Le menu du gestionnaire des signets permet de classer les signets par étiquettes.</string>
+  <string name="help_search_title">Rechercher</string>
+  <string name="help_search_text">La recherche de texte peut inclure des caractères spéciaux tels que *, ?, AND, OR, NOT
+ (voir \"Apache Lucene - Query Parser Syntax\" pour plus de détails)</string>
+  <string name="help_workspaces_title">Espaces</string>
+  <string name="help_workspaces_text">
+Les espaces de travail permettent d\'avoir plusieurs environnements de travail dépendant du contexte. Les fonctions de l\'espace de travail
+sont accessibles via l\'élément Espaces de travail dans le menu Options (coin supérieur droit). Un moyen rapide d\'accéder aux espaces de travail est
+de faire glisser votre doigt vers le bas depuis la barre d\'outils. Vous pouvez également utiliser des mouvements de balayage vers la gauche et vers la droite sur la barre d\'outils pour passer à
+l\'espace de travail précédent / suivant.</string>
+  <string name="help_hidden_features_title">Raccourcis cachés</string>
+  <string name="help_hidden_features_text">
+Balayez vers le bas depuis la barre d\'outils pour afficher le sélecteur d\'espace de travail.
+Appuyez longuement sur le bouton de la fenêtre pour minimiser rapidement.
+Appuyez longuement sur le bouton de la barre d\'outils Lecture audio, pour accéder rapidement aux paramètres de lecture audio.
+Appuyez longuement sur le titre de l\'emplacement du verset dans la barre d\'outils pour accéder au sélecteur de documents.
+Appuyez longuement sur le bouton Retour pour accéder à la liste de l\'historique.</string>
+  <string name="help_window_pinning_title">Épinglage de fenêtre</string>
+  <string name="help_window_pinning_text">
+Vous pouvez activer l\'épinglage de fenêtre à partir du menu Options (trois points dans le coin supérieur droit).
+Si l\'épinglage de fenêtre est activé, vous pouvez afficher de nombreuses fenêtres épinglées sur la vue de Bible,
+mais une seule fenêtre non épinglée. Les fenêtres épinglées sont affichées en premier, puis
+les fenêtres non épinglées. Vous voudrez peut-être ouvrir des documents bibliques en tant que fenêtres épinglées, et
+des commentaires et des cartes, etc, en tant que fenêtres non épinglées. Ensuite, vous pouvez facilement
+avoir toujours des documents bibliques ouverts et basculez rapidement entre les commentaires et
+d\'autres matériels supplémentaires lorsque vous étudiez la Bible.</string>
+  <!--Uncategorized-->
+  <string name="close">Fermer</string>
+  <string name="something_with_parenthesis">%s (%s)</string>
+  <string name="first_time_help_do_not_show_again">J\'ai compris</string>
+  <string name="first_time_help_show_next_time">Me montrer la prochaine fois</string>
+</resources>

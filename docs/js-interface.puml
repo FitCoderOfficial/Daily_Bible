@@ -1,0 +1,37 @@
+@startuml
+header Fullscreen toggling
+actor User
+control JVM
+control Activity
+control JS
+User -> JVM: Doubletap action
+note right
+    toggleFullScreen,
+    FullScreenEvent
+end note
+JVM -> Activity: Window buttons
+JVM -> JS: setToolbarOffset
+JS -> JS: Adjust to offset
+note left
+    If offset changed, move up or down
+    amount of offset difference
+
+end note
+@enduml
+
+@startuml
+header New window
+actor User
+control JVM
+control Activity
+control JS0
+control JS1
+User -> JVM: Click NW button
+JVM -> JS0: setToolbarOffset(80)
+JVM -> JS1: Show()
+JVM -> JS0: registerVersePositions()
+JS0 -> JVM: registerVersePosition...
+JVM -> JS0: scrollToVerse(9, false)
+@enduml
+
+
